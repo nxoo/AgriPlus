@@ -1,37 +1,53 @@
 html, body {
     padding: 0;
     margin: 0;
+    font-family: Poppins, Inter serif;
 }
-.navbar {
+nav {
     display: flex;
-    justify-content: space-between;
-    background-color: black;
-    padding: 30px 100px 30px 100px;
     color: white;
+    background-color: black;
+    padding: 10px 100px 20px 100px;
+    justify-content: space-between;
     align-items: baseline;
 }
-.navbar a {
+nav ul {
+    display: flex;
+    list-style: none;
+}
+li a {
     text-decoration: none;
     color: white;
-    padding: 0 20px 0 20px
+    padding: 0 15px 0 15px
 }
 .navbar-brand {
     font-weight: bolder;
     font-size: xxx-large;
 }
-.navbar-center {
+.nav-link {
     font-weight: bold;
     font-size: x-large;
 }
 #current {
-    border-bottom: 3px solid orangered;
+    border-bottom: 3px solid #ED661F;
 }
-.navbar-right {
+.login, .get-started {
     font-weight: bold;
     font-size: x-large;
 }
-.navbar-right .get-started {
-    background-color: orangered;
+.get-started {
+    background-color: #ED661F;
     padding: 15px;
 }
-
+@media only screen and (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+    nav ul {
+        flex-direction: column;
+        padding-top: 0.54rem;
+    }
+    nav li {
+        padding: 0.5rem 0;
+    }
+}
