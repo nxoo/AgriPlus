@@ -5,20 +5,23 @@ html, body {
 }
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: baseline;
     color: white;
     background-color: black;
     padding: 10px 100px 20px 100px;
-    justify-content: space-between;
-    align-items: baseline;
 }
 nav ul {
     display: flex;
     list-style: none;
+    padding: 0;
+}
+nav li {
+    padding-left: 1rem;
 }
 li a {
     text-decoration: none;
     color: white;
-    padding: 0 15px 0 15px
 }
 .navbar-brand {
     font-weight: bolder;
