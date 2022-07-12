@@ -3,6 +3,9 @@ html, body {
     margin: 0;
     font-family: Poppins, Inter serif;
 }
+.container {
+    padding-inline: 50px;
+}
 nav {
     display: flex;
     justify-content: space-between;
@@ -42,6 +45,32 @@ li a {
     background-color: #ED661F;
     padding: 15px;
 }
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+.section1 {
+    background-image: url("/Images/image 1.png");
+    background-size: contain;
+}
+#section1-part1 {
+    width: 600px;
+}
+#s1p1-title {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+#explore-more {
+    padding: 30px;
+    background-color: #ED661F;
+    color: white;
+    text-decoration: none;
+}
+#image2 {
+    height: 200px;
+    width: 500px;
+}
+
 @media only screen and (max-width: 600px) {
     nav {
         flex-direction: column;
@@ -52,5 +81,8 @@ li a {
     }
     nav li {
         padding: 0.5rem 0;
+    }
+    .section {
+        flex-direction: column;
     }
 }
