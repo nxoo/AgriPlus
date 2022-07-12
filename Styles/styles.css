@@ -51,7 +51,9 @@ li a {
 }
 .section1 {
     background-image: url("https://nxoo.github.io/AgriPlus/Images/image 1.png");
-    background-size: contain;
+    background-size: inherit;
+    background-size: 100%;
+    padding: 20px;
 }
 #section1-part1 {
     width: auto;
@@ -61,7 +63,7 @@ li a {
     font-weight: bold;
 }
 #explore-more {
-    padding: 30px;
+    padding: 20px;
     background-color: #ED661F;
     color: white;
     text-decoration: none;
@@ -69,6 +71,18 @@ li a {
 #image2 {
     height: 200px;
     width: 500px;
+}
+.section2 table {
+    padding: 15px;
+    z-index: 5;
+    box-shadow: 10px 10px 10px aliceblue;
+    background-color: aliceblue;
+}
+
+.section2 table td {
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
