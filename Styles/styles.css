@@ -4,7 +4,7 @@ html, body {
     font-family: Poppins, Inter serif;
 }
 .container {
-    padding-inline: 50px;
+    padding-inline: 100px;
 }
 nav {
     display: flex;
@@ -50,11 +50,11 @@ li a {
     justify-content: space-around;
 }
 .section1 {
-    background-image: url("/Images/image 1.png");
+    background-image: url("https://nxoo.github.io/AgriPlus/Images/image 1.png");
     background-size: contain;
 }
 #section1-part1 {
-    width: 600px;
+    width: auto;
 }
 #s1p1-title {
     font-size: xxx-large;
@@ -72,6 +72,9 @@ li a {
 }
 
 @media only screen and (max-width: 600px) {
+    .container {
+        padding-inline: 10px;
+    }
     nav {
         flex-direction: column;
     }
@@ -84,5 +87,9 @@ li a {
     }
     .section {
         flex-direction: column;
+    }
+    #image2 {
+        height: 200px;
+        width: auto;
     }
 }
