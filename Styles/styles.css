@@ -85,8 +85,17 @@ html, body {
     width: 100%;
     height: auto;
 }
-
-
+.section2 {
+    width: 50%;
+    margin: 0 auto 50px auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    padding: 30px;
+    box-shadow: 10px 10px 10px darkgrey;
+}
 
 @media (max-width: 576px) {
     .navbar {
