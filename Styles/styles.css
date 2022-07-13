@@ -97,6 +97,22 @@ html, body {
     box-shadow: 10px 10px 10px darkgrey;
 }
 
+.section3 {
+    display: flex;
+}
+#section3-part1 p:first-child {
+    font-size: xx-large;
+    font-weight: bold;
+}
+#section3-part1 p {
+    font-size: large;
+}
+#image3 {
+    width: 100%;
+    height: auto;
+}
+
+
 @media (max-width: 576px) {
     .navbar {
         flex-direction: column;
