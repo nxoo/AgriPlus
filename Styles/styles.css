@@ -2,6 +2,9 @@ html, body {
     margin: 0;
     padding: 0;
 }
+.container {
+    margin: 1% 10% 1% 10%;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -57,6 +60,33 @@ html, body {
     border-bottom: 3px solid #ED661F;
 }
 
+.section1 {
+    display: flex;
+    justify-content: center;
+}
+#s1p1-title {
+    font-size: xxx-large;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+#s1p1-description {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 40px;
+}
+#explore-more {
+    background-color: #ED661F;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+#image2 {
+    width: 100%;
+    height: auto;
+}
+
+
 
 @media (max-width: 576px) {
     .navbar {
@@ -73,5 +103,19 @@ html, body {
     }
     .me .nav-item {
         margin-bottom: 35px;
+    }
+    .section1 {
+        flex-direction: column;
+    }
+    #s1p1-title {
+        font-size: xx-large;
+        font-weight: bold;
+    }
+    .section2 {
+        flex-direction: column;
+        width: auto;
+    }
+    .section3 {
+        flex-direction: column;
     }
 }
