@@ -1,3 +1,4 @@
+@import "/Images/image 1.png";
 html, body {
     margin: 0;
     padding: 0;
@@ -63,6 +64,7 @@ html, body {
 .section1 {
     display: flex;
     justify-content: center;
+    background-image: url("/Images/image 1.png");
 }
 #s1p1-title {
     font-size: xxx-large;
