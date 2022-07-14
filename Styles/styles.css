@@ -172,6 +172,32 @@ html, body {
 .section8 {
     text-align: center;
 }
+.footer {
+    margin-top: 50px;
+    display: flex;
+}
+.footer-part1 p:first-child {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+.footer-part1 p:nth-child(2) {
+    font-weight: bold;
+}
+.footer-part1 p:last-child {
+    font-weight: bold;
+}
+.sm-icon {
+    height: 30px;
+    width: 30px;
+}
+.section8-form {
+    padding: 10px;
+    margin-right: 0px;
+}
+.section8-submit {
+    background-color: #ED661F;
+    padding: 10px;
+}
 
 @media (max-width: 576px) {
     .navbar {
