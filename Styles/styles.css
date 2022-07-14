@@ -131,7 +131,7 @@ html, body {
     font-size: xx-large;
     font-weight: bold;
 }
-.section5 img {
+.section5 img, .section6 img {
     margin: auto;
     width: 100%;
     height: auto;
@@ -147,6 +147,10 @@ html, body {
 }
 .products span {
     padding-block: 10px;
+}
+
+.section6 {
+    display: flex;
 }
 
 @media (max-width: 576px) {
