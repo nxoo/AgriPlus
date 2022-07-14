@@ -165,9 +165,9 @@ html, body {
     font-size: x-large;
     font-weight: bold;
 }
-.section7 div div div img {
-    width: 10px;
-    height: 10px;
+.section7-part1 img, .section7-part2 img, .section7-part3 img {
+    width: 20px;
+    height: 20px;
 }
 
 @media (max-width: 576px) {
