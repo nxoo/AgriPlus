@@ -119,6 +119,7 @@ html, body {
 .section4 p:first-child {
     font-size: xx-large;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 .section4 p:last-child {
     max-width: 520px;
@@ -146,11 +147,27 @@ html, body {
     font-weight: bold;
 }
 .products span {
-    padding-block: 10px;
+    padding-block: 5px;
 }
-
 .section6 {
     display: flex;
+    margin-bottom: 100px;
+}
+.section7 {
+    display: flex;
+}
+.section7-part1, .section7-part2, .section7-part3 {
+    border: 1px solid black;
+    margin: 10px;
+    padding: 30px;
+}
+.section7-part1 div:first-child, .section7-part2 div:first-child, .section7-part3 div:first-child {
+    font-size: x-large;
+    font-weight: bold;
+}
+.section7 div div div img {
+    width: 10px;
+    height: 10px;
 }
 
 @media (max-width: 576px) {
@@ -184,6 +201,12 @@ html, body {
         flex-direction: column;
     }
     .section5 {
+        flex-direction: column;
+    }
+    .section6 {
+        flex-direction: column;
+    }
+    .section7 {
         flex-direction: column;
     }
 }
